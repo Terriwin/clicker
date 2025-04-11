@@ -1,0 +1,69 @@
+/* Общий стиль для страницы */
+body {
+    background-color: #121212; /* Тёмный фон */
+    color: #ffffff; /* Белый текст */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.box.red {
+    background-color: rgb(156, 30, 30);
+}
+
+.box.green {
+    background-color: rgb(26, 107, 26);
+}
+
+.box.blue {
+    background-color: rgb(41, 41, 155);
+}
+
+/* Стили для кнопки */
+button {
+    background-color: #1f1f1f; /* Тёмно-серый фон */
+    color: #ffffff; /* Белый текст */
+    border: 2px solid #3a3a3a; /* Граница */
+    border-radius: 8px; /* Скруглённые углы */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #3a3a3a; /* Светлее при наведении */
+    border-color: #ffffff; /* Белая граница при наведении */
+}
+
+/* Стили для текста */
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Стили для чисел */
+span {
+    font-weight: bold;
+    color: #00ff00; /* Зелёный цвет для чисел */
+}
